@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; background-color: blueviolet;
+  color:#fff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.formContains{ width: 100%; text-align: center;}
+.formContains input,.formContains .InValue input[type=text]{width: 38%;
+  padding: 10px 12px;
+  border-radius: 5px;
+  border: 5px solid #fff;
+  font-size: 14px;
+  color: blue; text-align: center;}
+  .formContains button{width: 16%;
+    padding: 0.5em;
+    margin-top: 1em;
+    border-radius: 6px;
+    border: 2px solid #fff;
+    font-size: 21px;
+    font-weight: bold;
+    color: blueviolet;
+    font-family: inherit;}
+  /*second form start*/
+  .InValue{display: block; margin-top:1em;}
+  h1{text-align: center;}
+  /*secondform css start*/
+  .secondgrid{float:left; width:100%;}
+  .secondgrid input{width: 30%;
+    border-radius: 10px;
+    height: 25px; margin: 10px 0px;}
+  
